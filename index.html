@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- TITLE FOR WEB PAGE -->
+    <title>Pnuematic System</title>
+    <!-- CSS FILE LINK -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <!-- FONTAWSOME LINKS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- JavaSript SRC -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+        <nav>
+            <ul class="navbar" id="sidemenu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#team-members">Members</a></li>
+                <li><a href="#working">Working</a></li>
+                <!-- <li><a href="#contact">Contact</a></li> -->
+                <i class="fa fa-times" onclick="colsemenu()"></i>
+            </ul>
+            <i class="fa fa-bars bar-btn" onclick="openmenu()"></i>
+        </nav>
+    </header>
+    <section class="welcome">
+        <div class="mark">
+            <marquee direction="left">Welcome To Our Pneumatic System Project.</marquee>
+        </div>
+    </section>
+    <!-- Home Section -->
+    <section class="home" id="home">
+       <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="assembly.jPG"></div>
+            <div class="swiper-slide"><img src="cylinder.jPG"></div>
+            <div class="swiper-slide"><img src="piston.jPG"></div>
+            <div class="swiper-slide"><img src="blade.jPG"></div>
+            <div class="swiper-slide"><img src="body.jPG"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+  
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+  
+    </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="photo.png">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Machine</span></h2>
+            <p>A Pneumatic sheet metal cutting machine, is a mechanism designed to <b>cut metal sheets</b> at a quick pace, based on the inputs given by the operator, using a <b>switch</b>. The machine consists of a <b>cutter blade</b> system, a <b>double acting pneumatic cylinder</b> held over the cutter blade system, an <b>air compressor</b>, a <b>pneumatic valve</b> to regulate the air flow to the pneumatic cylinder from the compressor, and a <b>frame to hold the machine in position</b>. Cutting and shearing <b>technology used nowadays</b>, includes <b>laser cutting</b>, <b>hydraulic cutters</b>, among others.</p>
+            <a href="#working" class="btn">Read More</a> <br class="break"><a href="Report.pdf" target="_blank" class="btn" download>Download Report</a>
+        </div>
+    </section>
+
+ 
+    <!-- Team Membaers Section -->
+
+    <section class="certificate section" id="team-members">
+        <div class="heading1">
+            <h1>Team Members</h1>
+        </div>
+        <div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="preet.jpg">
+                    <div class="layer">
+                        <h3>Preet Savliya</h3>
+                        <p>Team Leader</p>
+                        <p>Role :- Designed The Machine</p>
+                        <a href="https://instagram.com/patelpreet_2003?igshid=ZDc4ODBmNjlmNQ==" target="_blank"><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="imtiyaz.jpg">
+                    <div class="layer">
+                        <h3>Imtiyaz Shaikh</h3>
+                        <p>Role :- Manufactured The Machine</p>
+                        <p>Manufactured The Body Part & Brought All The Components</p>
+                        <a href="https://instagram.com/mr_shaikh0777?igshid=MzRlODBiNWFlZA==" target="_blank"><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="work work2">
+                    <img src="omkar.jpg">
+                    <div class="layer">
+                        <h3>Omkar Gorule</h3>
+                        <p>Role :- Manufactured The Machine</p>
+                        <p>Manufactured Small Parts For Holding The Blade & Painted The Machine</p>
+                        <a href="https://instagram.com/_i_am_omkar_20?igshid=MzRlODBiNWFlZA==" target="_blank"><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="work work2">
+                    <img src="granth.jpg">
+                    <div class="layer">
+                        <h3>Granth Singh</h3>
+                        <p>Role :- Manufactured The Machine</p>
+                        <p>Manufactured The Blade & Assembeld The Machine</p>
+                        <a href="https://instagram.com/__granth_?igshid=ZGUzMzM3NWJiOQ==" target="_blank"><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- working section -->
+
+    <section class="working" id="working">
+        <div class="heading2">
+            <h1>Woking Of Machine</h1>
+        </div>
+        <div class="working-info">
+            <p class="statement">The following figure shows general layout for the machine.</p><br>
+            <img src="layout.PNG" class="layout"><br><br>
+            <p class="statement">Figure: General Layout</p><br><br>
+            <p class="para">Initially the air-compressor is started and allowed the receiver tank air pressure to reach up to 8 bar. The supply air is then passed to the manifold through FRL unit to condition the air and eligible to industrial use.</p>
+            <p class="para">From the manifold a separate supply for the machine is taken out and given to ON-OFF switch, so as to operate the machine at will without interrupting the running of compressor. Then the pipe carries compressed air first to machine’s Direction Control Valve. At <b>position ‘A’</b> shows the non-actuated circuit diagram. At this position the piston is steady and locked. All ports are in closed condition.</p><br><br>
+            <p class="statement">POSITION ‘A’</p><br><br>
+            <div class="images">
+                <img src="poa.PNG" class="poa">
+                <img src="poa1.PNG" class="poa">
+            </div><br><br>
+            <p class="para">At <b>position ‘B’</b>, the DC valve is at left hand position as shown in figure. The cap end port & pressure port get connected to each other and the rod end port gets connected to the exhaust port. The compressed air comes in the cap end of the cylinder and pushes the pistons outwards. The air already present in the rod end side is pushed out of the cylinder. When the piston moves outwards, the force is transmitted through the connecting link and the upper blade moves downwards. Before the actuating DC valve the sheet is inserted in between the upper & lower blades. As upper blade moves downwards, the stress is generated in the sheet metal and goes beyond ultimate shear stress of sheet metal. And thus the shearing action takes place. Now the DC valve is operated to come at <b>position ‘C’</b>, as shown in figure. The rod end port & pressure port get connected to each other and the cap end port gets connected to the exhaust port. The compressed air comes in the rod end of the cylinder and pushes the pistons inwards. The air already present in the cap end side is pushed out of the cylinder. The sheet metal is either again inserted for further cutting in case of large pieces; the small cut pieces are removed and the next sheet is inserted to cut.</p><br><br>
+            <p class="statement">POSITION ‘B’</p><br><br>
+            <div class="images">
+                <img src="pob.PNG" class="pob">
+                <img src="pob1.PNG" class="pob">
+            </div><br><br>
+            <p class="statement">POSITION ‘C’</p><br><br>
+            <div class="images">
+                <img src="poc.PNG" class="poc">
+                <img src="poc1.PNG" class="poc">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <footer>
+            &copy; 2023 All Rights Reserved | Preet Savliya, Imtiyaz Shaikh, Omakr Gorule & Granth Singh.
+        </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function colsemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+          
+            // If we need pagination
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+          
+            // Navigation arrows
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          
+          });
+    </script>
+</body>
+</html>
